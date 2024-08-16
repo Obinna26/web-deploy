@@ -4,7 +4,7 @@
 
 Automate deploying websites and more with this GitHub action. **It's free!**
 
-[![tests](https://github.com/SamKirkland/web-deploy/actions/workflows/test-report.yml/badge.svg)](https://github.com/SamKirkland/web-deploy/actions/workflows/test-report.yml)
+[![tests](https://github.com/obisouth26/web-deploy/actions/workflows/test-report.yml/badge.svg)](https://github.com/obisouth26/web-deploy/actions/workflows/test-report.yml)
 
 ---
 
@@ -22,7 +22,7 @@ jobs:
       uses: actions/checkout@v3
     
     - name: 📂 Sync Files
-      uses: SamKirkland/web-deploy@v1
+      uses: obisouth26/web-deploy@v1
       with:
         target-server: example.com
         remote-user: username
@@ -35,7 +35,7 @@ jobs:
 ### Requirements
 - You must have shell access to your server, please read you webite hosts documentation
 - **You CANNOT use a FTP account - they are not the same!**
-  - If you don't have SSH access but have ftp access use [FTP-Deploy-Action](https://github.com/SamKirkland/FTP-Deploy-Action) instead
+  - If you don't have SSH access but have ftp access use [FTP-Deploy-Action](https://github.com/obisouth26/FTP-Deploy-Action) instead
 - You will need to create a **SSH** user to deploy. Normally this is your cpanel or hosting providers username and password
 - Most web hosts change the default port (22), check with your host for your port number
 
@@ -115,7 +115,7 @@ jobs:
       run: npm run build
     
     - name: 📂 Sync Files
-      uses: SamKirkland/web-deploy@v1
+      uses: obisouth26/web-deploy@v1
       with:
         target-server: example.com
         remote-user: username
@@ -137,7 +137,7 @@ jobs:
       uses: actions/checkout@v3
 
     - name: 📂 Sync Files
-      uses: SamKirkland/web-deploy@v1
+      uses: obisouth26/web-deploy@v1
       with:
         target-server: example.com
         remote-user: username
@@ -147,7 +147,7 @@ jobs:
         rsync-options: --dry-run --archive --verbose --compress --delete-after --human-readable --exclude=.git* --exclude=.git/ --exclude=README.md --exclude=readme.md --exclude=.gitignore
 ```
 
-_Want another example? Let me know by creating a [github issue](https://github.com/SamKirkland/web-deploy/issues/new)_
+_Want another example? Let me know by creating a [github issue](https://github.com/obisouth26/web-deploy/issues/new)_
 
 ---
 
@@ -155,42 +155,42 @@ _Want another example? Let me know by creating a [github issue](https://github.c
 
 If you appreciate this github action give it a :star: or show off with one of the badges below. Feel free to edit the text or color.
 
-[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/obisouth26/web-deploy)
 
 ```md
-[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=0077b6">](https://github.com/obisouth26/web-deploy)
 ```
 
-[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/obisouth26/web-deploy)
 
 ```md
-[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/obisouth26/web-deploy)
 ```
 
-[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/obisouth26/web-deploy)
 
 ```md
-[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Deployed with web deploy" src="https://img.shields.io/badge/Deployed With-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/obisouth26/web-deploy)
 ```
 
 ---
 
-[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/obisouth26/web-deploy)
 
 ```md
-[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=297FA9">](https://github.com/obisouth26/web-deploy)
 ```
 
-[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/obisouth26/web-deploy)
 
 ```md
-[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=2b9348">](https://github.com/obisouth26/web-deploy)
 ```
 
-[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/obisouth26/web-deploy)
 
 ```md
-[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/SamKirkland/web-deploy)
+[<img alt="Website Deployed for Free with web deploy" src="https://img.shields.io/badge/Website deployed for free with-web deploy-%3CCOLOR%3E?style=for-the-badge&color=d00000">](https://github.com/obisouth26/web-deploy)
 ```
 
 ## FAQ
@@ -222,7 +222,7 @@ Example excluding a specific folder:
 
 ## Common Errors
 <details id="rsync-not-installed">
-  <summary>rsync not found. Please see https://github.com/SamKirkland/web-deploy#rsync-not-installed</summary>
+  <summary>rsync not found. Please see https://github.com/obisouth26/web-deploy#rsync-not-installed</summary>
 
   
   This library uses `rsync` to sync files. The script was not able to detect `rsync` on the machine running the action.
